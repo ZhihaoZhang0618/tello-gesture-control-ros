@@ -1,4 +1,7 @@
 # DJI Tello Hand Gesture control
+
+fork form kinivi/tello-gesture-control
+and modify it
 -------
 
 🏆 This project featured in [Official Google Dev Blog](https://developers.googleblog.com/2021/09/drone-control-via-gestures-using-mediapipe-hands.html)
@@ -41,8 +44,8 @@ First, we need to install python dependencies. Make sure you that you are using 
 
 List of packages
 ```sh
+scikit-build
 ConfigArgParse == 1.2.3
-djitellopy == 1.5
 numpy == 1.19.3
 opencv_python == 4.5.1.48
 tensorflow == 2.4.1
@@ -51,7 +54,9 @@ mediapipe == 0.8.2
 
 Install
 ```sh
-pip3 install -r requirements.txt
+pip3 install -r requirements.txt 
+or
+pip3 install -r requirements.txt  -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 ### 2. Connect Tello
 Turn on drone and connect computer to its WiFi
@@ -98,10 +103,11 @@ The most interesting part is demo. There are 2 types of control: keyboard and ge
 
 Run the following command to start the tello control :
 
+## use ros !!!!
 ```sh
-python3 main.py
+roslaunch rmtt_driver rmtt_bringup.launch
+python3 main_ros.py
 ```
-
 This script will start the python window with visualization like this:
 
 <img width="60%" alt="window" src="https://user-images.githubusercontent.com/13486777/111294470-09d08480-8653-11eb-895d-a8ca9f6a288d.png">

@@ -98,10 +98,11 @@ The most interesting part is demo. There are 2 types of control: keyboard and ge
 
 Run the following command to start the tello control :
 
+## use ros !!!!
 ```sh
-python3 main.py
+roslaunch rmtt_driver rmtt_bringup.launch
+python3 main_ros.py
 ```
-
 This script will start the python window with visualization like this:
 
 <img width="60%" alt="window" src="https://user-images.githubusercontent.com/13486777/111294470-09d08480-8653-11eb-895d-a8ca9f6a288d.png">

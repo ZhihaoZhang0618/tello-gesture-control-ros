@@ -53,7 +53,9 @@ mediapipe == 0.8.2
 
 Install
 ```sh
-pip3 install -r requirements.txt
+pip3 install -r requirements.txt 
+or
+pip3 install -r requirements.txt  -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 ### 2. Connect Tello
 Turn on drone and connect computer to its WiFi

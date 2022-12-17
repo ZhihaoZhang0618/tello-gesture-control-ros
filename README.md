@@ -44,6 +44,7 @@ First, we need to install python dependencies. Make sure you that you are using 
 
 List of packages
 ```sh
+scikit-build
 ConfigArgParse == 1.2.3
 numpy == 1.19.3
 opencv_python == 4.5.1.48

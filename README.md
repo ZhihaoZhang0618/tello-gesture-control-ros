@@ -1,4 +1,7 @@
 # DJI Tello Hand Gesture control
+
+fork form kinivi/tello-gesture-control
+and modify it
 -------
 
 🏆 This project featured in [Official Google Dev Blog](https://developers.googleblog.com/2021/09/drone-control-via-gestures-using-mediapipe-hands.html)
